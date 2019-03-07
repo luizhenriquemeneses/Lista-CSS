@@ -1,0 +1,88 @@
+/*Questão 01*/
+div.Questao01{
+    border-right: solid 20em red;
+    border-left: solid 20em green;
+    height: 400px;
+    width: 60%;
+    font-size: 12px;
+    letter-spacing: 3em;
+    word-spacing: 4px;
+    text-align: justify;
+    font-family: "Verdana";
+    text-indent: 25 px;
+  }
+  div.Questao01 :first-letter {
+    font-size: 36px blue ;
+    text-decoration: overline;
+  }
+  div.Questao01 :first-line {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+/*Questão 02*/
+    a.Q2a:link {
+    text-decoration: none;
+   }
+   a.Q2b:link {
+        text-decoration: overline;
+   }
+   a.Q2b:active{
+    text-decoration: line-through;
+   }
+   a.Q2b:visited {
+    text-decoration: underline
+   }
+   a.Q2c:link {
+    color: orange;
+   }
+   a.Q2c:hover{
+       color: green;
+       text-decoration: overline;
+   }
+   a.Q2d:link{
+    border: solid;
+    color: blue;
+    background: black;
+    font: color white;
+   }
+   a.Q2d:hover {
+       border: dotted black;
+       background: white;
+       font: black;
+   }
+   a.Q2e:link {
+    color: red;
+   }
+   a.Q2e:visited {
+    font-style: italic bold orange;
+   }
+   a.Q2e:hover {
+       text-decoration: overline;
+    }
+    a.Q2e:active {
+    color: yellow;
+   }
+/*Questão 03*/
+
+.feliz {
+    -webkit-filter: grayscale(10%);
+}
+.feliz:hover {
+    -webkit-filter: grayscale(100%);
+    transition: 2s;
+}
+.Emojis:hover .curioso {
+    display: none;
+    transition: 2s;
+
+}
+.curioso{
+    display: block;
+}
+.Emojis:hover .surpreso {
+    display: block;
+    transition: 2s;
+}
+.surpreso {
+    display: none;
+}
